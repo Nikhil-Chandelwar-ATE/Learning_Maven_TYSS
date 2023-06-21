@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T11:26:46 IST" name="Default suite" finished-at="2023-06-21T11:26:54 IST" duration-ms="7893">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T11:26:46 IST" name="Default test" finished-at="2023-06-21T11:26:54 IST" duration-ms="7893">
+      <class name="com.POM_Test_Cases.DWS_Login">
+        <test-method is-config="true" signature="browser_Setup()[pri:0, instance:com.POM_Test_Cases.DWS_Login@1622f1b]" started-at="2023-06-21T11:26:46 IST" name="browser_Setup" finished-at="2023-06-21T11:26:51 IST" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Setup -->
+        <test-method signature="loginToDWS()[pri:0, instance:com.POM_Test_Cases.DWS_Login@1622f1b]" started-at="2023-06-21T11:26:51 IST" name="loginToDWS" finished-at="2023-06-21T11:26:53 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method is-config="true" signature="browser_Tear_Down()[pri:0, instance:com.POM_Test_Cases.DWS_Login@1622f1b]" started-at="2023-06-21T11:26:53 IST" name="browser_Tear_Down" finished-at="2023-06-21T11:26:54 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Tear_Down -->
+      </class> <!-- com.POM_Test_Cases.DWS_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

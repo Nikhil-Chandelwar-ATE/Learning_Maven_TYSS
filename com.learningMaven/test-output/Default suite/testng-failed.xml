@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.POM_Test_Cases.DWS_Login">
+      <class name="com.testScript.Learning_TestNG_Listeners2">
         <methods>
-          <include name="loginToDWS"/>
           <include name="browser_Tear_Down"/>
+          <include name="registerTest"/>
           <include name="browser_Setup"/>
         </methods>
-      </class> <!-- com.POM_Test_Cases.DWS_Login -->
+      </class> <!-- com.testScript.Learning_TestNG_Listeners2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

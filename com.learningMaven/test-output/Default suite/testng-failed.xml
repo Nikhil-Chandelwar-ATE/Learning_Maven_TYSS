@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testScript.Learning_TestNG_Listeners2">
+      <class name="com.testScript.Purchase_A_Product_Test_CaseTest">
         <methods>
-          <include name="browser_Tear_Down"/>
-          <include name="registerTest"/>
-          <include name="browser_Setup"/>
+          <include name="purchasingProductDWS" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.testScript.Learning_TestNG_Listeners2 -->
+      </class> <!-- com.testScript.Purchase_A_Product_Test_CaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
